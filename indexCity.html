@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+  <head>
+     <title>My ideal society system</title>
+  </head>
+	<body>
+    <div id='thatDiv'>
+					<button type="button" class='animated' onclick="pageRedirect()"></button>
+			</div>
+ 
+<style>
+body
+{
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  perspective: 100vw;
+  perspective-origin: 50% 10%;
+  transform-style: preserve-3d;
+  background: url('https://i.pinimg.com/originals/77/cc/d1/77ccd16e21f651968ce1682891f4128c.jpg') repeat center center fixed; 
+  background-size: cover; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover;  
+  margin:0;
+  padding:0;
+  position: fixed;
+}
+
+#thatDiv
+{
+  position: absolute;
+  width: 50vw;
+  height: 400px;
+  top: 7vw;
+  left: 10vw;
+  transform: rotateY(35deg);
+  transform-style: preserve-3d;
+}
+
+#thatDiv button
+{
+  border: 0.8vw rgb(3, 196, 3) dashed;
+  /* border-style: ; */
+  background-color: transparent;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 8vw;
+  right: 6vw;
+  width: 6vw;
+  height: 6vw;
+  opacity: 0.8;
+  font-size: 3vw;
+  animation: spin 50s linear infinite;
+}
+
+#thatDiv button:hover
+{
+  background-color: rgb(125,240,250);
+  cursor: pointer;
+}
+
+@keyframes spin
+{
+  0% { transform: rotate(0deg) translateZ(2vw);}
+  100% { transform: rotate(360deg) translateZ(2vw);}
+}
+</style>
+
+<script>
+// Redirects you to the ideal system, explained in detail :3
+function pageRedirect() {
+      window.location.href = "https://elisauku.github.io/BirthdayGiftLetter/second.html"; // respective link (need to change)
+    }
+
+</script>
+		
+</body>
+</html>
