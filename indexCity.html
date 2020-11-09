@@ -4,23 +4,39 @@
   </head>
 	<body>
     <div id='thatDiv'>
-					<button type="button" class='animated' onclick="pageRedirect()"></button>
+          <button type="button" class='animated' onclick="pageRedirect()"></button>
 			</div>
  
-
       <div class="copyright">
         <p style="color:white";> Elisaveta Saura Kuleshova
           <br/> <p style="color:white";> 2020 </style>
         </p>
     </div> 
 
+     <div id='Politics'>
+   <p> Politics </p> 
+    </div>
+
+    <div id='otherDiv'>
+      <button type="button" class='animated' onclick="pageRedirect()"></button>
+  </div>
+
 <style>
+
+#Politics {
+  padding-left: 585px;
+  padding-top: 125px;
+  color: blue;
+  font-size:  30px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
 
 .copyright {
     font-size: 14pt;
     text-align: right;
-    padding-right: 20px;
-    font-family: c;
+    padding-right: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 body
@@ -45,17 +61,18 @@ body
 {
   position: absolute;
   width: 50vw;
-  height: 400px;
+  height: 400px; 
   top: 7vw;
   left: 10vw;
   transform: rotateY(35deg);
   transform-style: preserve-3d;
 }
 
+/* politics button */
 #thatDiv button
 {
   border: 0.8vw rgb(3, 196, 3) dashed;
-  /* border-style: ; */
+       /* border-style: ; */
   background-color: transparent;
   border-radius: 50%;
   position: absolute;
@@ -79,6 +96,40 @@ body
   0% { transform: rotate(0deg) translateZ(2vw);}
   100% { transform: rotate(360deg) translateZ(2vw);}
 }
+
+#otherDiv
+{
+  position: absolute;
+  width: 50vw;
+  height: 400px;
+  top: 10vw;
+  left: 50vw;
+  transform: rotateY(35deg);
+  transform-style: preserve-3d;
+}
+
+#otherDiv button
+{
+  border: 0.8vw blue dashed;
+  /* border-style: ; */
+  background-color: transparent;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 8vw;
+  right: 6vw;
+  width: 6vw;
+  height: 6vw;
+  opacity: 0.8;
+  font-size: 3vw;
+  animation: spin 50s linear infinite;
+}
+
+#otherDiv button:hover
+{
+  background-color: rgb(125,240,250);
+  cursor: pointer;
+}
+
 </style>
 
 <script>
