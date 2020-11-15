@@ -4,7 +4,7 @@
   </head>
 	<body>
     <div id='thatDiv'>
-          <button type="button" class='animated' onclick="pageRedirect()"></button>
+          <button type="button" class='animated' onclick="show('executive')"></button>
 			</div>
 
         <h3 style="color:white";> Elisaveta Saura Kuleshova </style> </h3>
@@ -12,48 +12,91 @@
      <h2 id='Executive'> Executive </h2>
 
     <div id='otherDiv'>
-          <button type="button" class='animated' onclick="pageRedirect()"></button>
+          <button type="button" class='animated' onclick="show('education')"></button>
       </div>
 
       <h2 id='Education'> Education </p> </h2>
 
     <div id='thisDiv'>
-          <button type="button" class='animated' onclick="pageRedirect()"></button>
+          <button type="button" class='animated' onclick="show('judicial')"></button>
       </div>
 
       <h2 id='Judicial'> Judicial<br>System </h2>
 
     <div id='theDiv'>
-          <button type="button" class='animated' onclick="pageRedirect()"></button>
+          <button type="button" class='animated' onclick="show('economy')"></button>
       </div>
 
       <h2 id='Economy'> Economy </h2>
 
     <div id='anyDiv'>
-          <button type="button" class='animated' onclick="pageRedirect()"></button>
+          <button type="button" class='animated' href="#" onclick="show('legislative')"></button>
       </div>
   
       <h2 id='Legislative'> Legislative </h2>
 
      <div id='idkDiv'>
-           <button type="button" class='animated' onclick="pageRedirect()"></button>
+           <button type="button" class='animated' href="#" onclick="show('environment')"></button>
        </div>
     
        <h2 id='Environment'> Environment </h2>
 
       <div id='anotherDiv'>
-            <button type="button" class='animated' onclick="pageRedirect()"></button>
+            <button type="button" class='animated' href="#" onclick="show('popup')"></button>
        </div>
  
-       <!-- space for the institution description -->
+       <div class="popup" id="popup">
+        <p>This is a popup!</p>
+        <p>Overlay uses  and  pseudo-classes.</p>
+        <p>Website will still remain visible behind this popup.</p>
+        <a href="#" onclick="hide('popup')">Close</a>
+      </div>
 
        <div id='xyzDiv'>
-        <button type="button" class='animated' onclick="pageRedirect()"></button>
+        <button type="button" class='animated' href="#" onclick="show('popup')"></button>
        </div>
 
        <!-- space for the institution description -->
 
 <style>
+
+.popup {
+  display: none;
+  position: absolute;
+  padding: 10px;
+  width: 600px;
+  left: 50%;
+  margin-left: -300px;
+  height: 300px;
+  top: 50%;
+  margin-top: -100px;
+  background: #FFF;
+  border: 7px solid cyan; /* uno de cada color acorde al botón */
+  z-index: 20;
+}
+
+#popup:after {
+  position: fixed;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -2;
+}
+
+#popup:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #FFF;
+  z-index: -1;
+}
+
 
 #Executive {
   position: relative;
@@ -403,9 +446,17 @@ body
 
 <script>
 // Redirects you to the ideal system, explained in detail :3
-function pageRedirect() {
-      window.location.href = "https://elisauku.github.io/BirthdayGiftLetter/second.html"; // respective link (need to change)
-    }
+
+$ = function(id) {
+  return document.getElementById(id);
+}
+
+var show = function(id) {
+	$(id).style.display ='block';
+}
+var hide = function(id) {
+	$(id).style.display ='none';
+}
 
 </script>
 		
