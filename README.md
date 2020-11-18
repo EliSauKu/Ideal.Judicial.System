@@ -1,2 +1,2 @@
-# IdealSocietySystem
-My ideal society system in a nutshell (Law project) :D
+# IdealLawSystem
+My society ideal Law system in a nutshell (Law project) :D
