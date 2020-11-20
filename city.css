@@ -1,8 +1,8 @@
 
 
-#Executive {
+#Civil_Law {
   position: relative;
-  left: 560px;
+  left: 575px;
   top: 190px;
   color: black;
   font-size:  30px;
@@ -99,9 +99,9 @@ body
   cursor: pointer;
 }
 
-#Education {
+#Sources_Law {
   position: relative;
-  left: 620px;
+  left: 600px;
   top: 320px;
   color: black;
   font-size:  30px;
@@ -146,10 +146,10 @@ body
   cursor: pointer;
 }
 
-#Judicial {
+#Statute_Limitations {
   position: relative;
-  top: 180px;
-  left: 1080px;
+  top: 170px;
+  left: 1030px;
   color: black;
   font-size:  30px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
@@ -188,7 +188,7 @@ body
   cursor: pointer;
 }
 
-#Economy {
+#Tort_Law {
   position: relative;
   left: 880px;
   color: black;
@@ -229,10 +229,10 @@ body
   cursor: pointer;
 }
 
-#Legislative {
+#Law_Persons {
   position: relative;
   top: 10px;
-  left: 220px;
+  left: 200px;
   color: black;
   font-size:  30px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
@@ -271,7 +271,7 @@ body
   cursor: pointer;
 }
 
-#Environment {
+#Obligation  {
   position: relative;
   bottom: 250px;
   left: 370px;
