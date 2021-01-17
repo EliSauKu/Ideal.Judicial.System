@@ -635,8 +635,7 @@ body
   z-index: -1;
 }
 
-/* Succession Law */
-.popupmd {
+.popupd {
   display: none;
   position: absolute;
   padding: 10px;
@@ -651,7 +650,7 @@ body
   z-index: 20;
 }
 
-#popupmd:after {
+#popupd:after {
   position: fixed;
   content: "";
   top: 0;
@@ -662,7 +661,7 @@ body
   z-index: -2;
 }
 
-#popupmd:before {
+#popupd:before {
   position: absolute;
   content: "";
   top: 0;
