@@ -148,7 +148,7 @@ body
 
 #Statute_Limitations {
   position: relative;
-  top: 170px;
+  top: 290px;
   left: 1030px;
   color: black;
   font-size:  30px;
@@ -455,4 +455,136 @@ body
   right: 0;
   background: #FFF;
   z-index: -1;
+}
+
+/* Statute of Limitations */
+.popupl {
+  display: none;
+  position: absolute;
+  padding: 10px;
+  width: 600px;
+  left: 50%;
+  margin-left: -300px;
+  height: 300px;
+  top: 50%;
+  margin-top: -100px;
+  background: #FFF;
+  border: 7px solid cyan; /* uno de cada color acorde al botón */
+  z-index: 20;
+}
+
+#popupl:after {
+  position: fixed;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -2;
+}
+
+#popupl:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #FFF;
+  z-index: -1;
+}
+
+/* Sources of Law */
+.popupf {
+  display: none;
+  position: absolute;
+  padding: 10px;
+  width: 600px;
+  left: 50%;
+  margin-left: -300px;
+  height: 300px;
+  top: 50%;
+  margin-top: -100px;
+  background: #FFF;
+  border: 7px solid cyan; /* uno de cada color acorde al botón */
+  z-index: 20;
+}
+
+#popupf:after {
+  position: fixed;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -2;
+}
+
+#popupf:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #FFF;
+  z-index: -1;
+}
+
+/* Law of Persons */
+.popupy {
+  display: none;
+  position: absolute;
+  padding: 10px;
+  width: 600px;
+  left: 50%;
+  margin-left: -300px;
+  height: 300px;
+  top: 50%;
+  margin-top: -100px;
+  background: #FFF;
+  border: 7px solid cyan; /* uno de cada color acorde al botón */
+  z-index: 20;
+}
+
+#popupy:after {
+  position: fixed;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -2;
+}
+
+#popupy:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #FFF;
+  z-index: -1;
+}
+
+#Succession_Law {
+  position: relative;
+  bottom: 315px;
+  left: 30px;
+  color: black;
+  font-size:  30px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+#Civil_Liability {
+  position: relative;
+  bottom: 360px;
+  left: 700px;
+  color: black;
+  font-size:  30px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 }
