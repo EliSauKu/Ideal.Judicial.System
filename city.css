@@ -194,6 +194,7 @@ body
 #Tort_Law {
   position: relative;
   left: 880px;
+  bottom: 190px;
   color: black;
   text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 1em white;
   font-size:  30px;
@@ -350,10 +351,11 @@ body
   cursor: pointer;
 }
 
-/* Tort Law */
+/* Sources of Law Law */
 .popup {
   display: none;
   position: absolute;
+  overflow-y: scroll;
   padding: 10px;
   width: 600px;
   left: 50%;
@@ -362,7 +364,7 @@ body
   top: 30%;
   margin-top: -100px;
   background: #FFF;
-  border: 7px solid cyan; /* uno de cada color acorde al botón */
+  border: 7px solid purple; /* uno de cada color acorde al botón */
   z-index: 20;
 }
 
@@ -373,7 +375,7 @@ body
   left: 0;
   bottom: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: white(0, 0, 0, 0.5);
   z-index: -2;
 }
 
@@ -388,9 +390,11 @@ body
   z-index: -1;
 }
 
+/* Succession Law */
 .popupk {
   display: none;
   position: absolute;
+  overflow-y: scroll;
   padding: 10px;
   width: 600px;
   left: 50%;
@@ -399,7 +403,7 @@ body
   top: 30%;
   margin-top: -100px;
   background: #FFF;
-  border: 7px solid cyan; /* uno de cada color acorde al botón */
+  border: 7px solid yellow; /* uno de cada color acorde al botón */
   z-index: 20;
 }
 
@@ -410,7 +414,7 @@ body
   left: 0;
   bottom: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: white(0, 0, 0, 0.5);
   z-index: -2;
 }
 
@@ -429,6 +433,7 @@ body
 .popupj {
   display: none;
   position: absolute;
+  overflow-y: scroll;
   padding: 10px;
   width: 600px;
   left: 50%;
@@ -437,7 +442,7 @@ body
   top: 30%;
   margin-top: -100px;
   background: #FFF;
-  border: 7px solid cyan; /* uno de cada color acorde al botón */
+  border: 7px solid limegreen; /* uno de cada color acorde al botón */
   z-index: 20;
 }
 
@@ -448,7 +453,7 @@ body
   left: 0;
   bottom: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: white(0, 0, 0, 0.5);
   z-index: -2;
 }
 
@@ -463,10 +468,11 @@ body
   z-index: -1;
 }
 
-/* Statute of Limitations */
+/* Civil Liability */
 .popupl {
   display: none;
   position: absolute;
+  overflow-y: scroll;
   padding: 10px;
   width: 600px;
   left: 50%;
@@ -475,7 +481,7 @@ body
   top: 30%;
   margin-top: -100px;
   background: #FFF;
-  border: 7px solid cyan; /* uno de cada color acorde al botón */
+  border: 7px solid red; /* uno de cada color acorde al botón */
   z-index: 20;
 }
 
@@ -486,7 +492,7 @@ body
   left: 0;
   bottom: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: white(0, 0, 0, 0.5);
   z-index: -2;
 }
 
@@ -501,10 +507,11 @@ body
   z-index: -1;
 }
 
-/* Sources of Law */
+/* Statute of Limitations */
 .popupf {
   display: none;
   position: absolute;
+  overflow-y: scroll;
   padding: 10px;
   width: 600px;
   left: 50%;
@@ -513,7 +520,7 @@ body
   top: 30%;
   margin-top: -100px;
   background: #FFF;
-  border: 7px solid cyan; /* uno de cada color acorde al botón */
+  border: 7px solid orangered; /* uno de cada color acorde al botón */
   z-index: 20;
 }
 
@@ -524,7 +531,7 @@ body
   left: 0;
   bottom: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: white(0, 0, 0, 0.5);
   z-index: -2;
 }
 
@@ -541,6 +548,7 @@ body
 
 /* Law of Persons */
 .popupy {
+  overflow-y: scroll;
   display: none;
   position: absolute;
   padding: 10px;
@@ -551,7 +559,7 @@ body
   top: 30%;
   margin-top: -100px;
   background: #FFF;
-  border: 7px solid cyan; /* uno de cada color acorde al botón */
+  border: 7px solid blue; /* uno de cada color acorde al botón */
   z-index: 20;
 }
 
@@ -562,7 +570,7 @@ body
   left: 0;
   bottom: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: white(0, 0, 0, 0.5);
   z-index: -2;
 }
 
@@ -579,7 +587,7 @@ body
 
 #Succession_Law {
   position: relative;
-  bottom: 315px;
+  bottom: 130px;
   left: 30px;
   color: black;
   text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 1em white;
@@ -599,6 +607,7 @@ body
 
 /* The Obligation */
 .popupz {
+  overflow-y: scroll;
   display: none;
   position: absolute;
   padding: 10px;
@@ -609,7 +618,7 @@ body
   top: 30%;
   margin-top: -100px;
   background: #FFF;
-  border: 7px solid cyan; /* uno de cada color acorde al botón */
+  border: 7px solid fuchsia; /* uno de cada color acorde al botón */
   z-index: 20;
 }
 
@@ -620,7 +629,7 @@ body
   left: 0;
   bottom: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: white(0, 0, 0, 0.5);
   z-index: -2;
 }
 
@@ -635,8 +644,10 @@ body
   z-index: -1;
 }
 
+/* Tort Law */
 .popupd {
   display: none;
+  overflow-y: scroll;
   position: absolute;
   padding: 10px;
   width: 600px;
@@ -646,7 +657,7 @@ body
   top: 30%;
   margin-top: -100px;
   background: #FFF;
-  border: 7px solid cyan; /* uno de cada color acorde al botón */
+  border: 7px solid rgb(104, 202, 202); /* uno de cada color acorde al botón */
   z-index: 20;
 }
 
@@ -657,7 +668,7 @@ body
   left: 0;
   bottom: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: white(0, 0, 0, 0.5);
   z-index: -2;
 }
 
@@ -672,11 +683,3 @@ body
   z-index: -1;
 }
 
-.max {
-  height: 70%;
-}
-
-.scrolly {
-  overflow-y: scroll;
-  overflow-x: hidden;
-}
