@@ -520,7 +520,7 @@ body
   top: 30%;
   margin-top: -100px;
   background: #FFF;
-  border: 7px solid orangered; /* uno de cada color acorde al botón */
+  border: 7px solid rgb(255, 111, 15); /* uno de cada color acorde al botón */
   z-index: 20;
 }
 
