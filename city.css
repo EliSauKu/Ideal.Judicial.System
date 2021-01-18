@@ -671,3 +671,12 @@ body
   background: #FFF;
   z-index: -1;
 }
+
+.max {
+  height: 70%;
+}
+
+.scrolly {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
