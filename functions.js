@@ -1,16 +1,6 @@
 
-window.onload=function(){
-Swal.fire({
-    icon: "info",
-    title: '✴️ Hello and welcome to my ideal Judicial system page! ✴️\n\nClick on the different colour buttons and I will present my proposals in detail.',
-    showClass: {
-      popup: 'animate__animated animate__fadeInDown'
-    },
-    hideClass: {
-      popup: 'animate__animated animate__fadeOutUp'
-    }
-  })
-}
+window.alert("Hello World")
+
 // Redirects you to the ideal system, explained in detail :D
 
 $ = function(id) {
@@ -18,9 +8,10 @@ $ = function(id) {
 }
 
 var show = function(id) {
-	$(id).style.display ='block'; bvvvvvvvvvvvvvb
+	$(id).style.display ='block';
 }
 var hide = function(id) {
 	$(id).style.display ='none';
 }
+
 
