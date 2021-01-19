@@ -1,4 +1,5 @@
 
+
 window.onload=function(){
 Swal.fire({
     icon: "info",
@@ -22,5 +23,6 @@ var show = function(id) {
 }
 var hide = function(id) {
 	$(id).style.display ='none';
+}
 
 
