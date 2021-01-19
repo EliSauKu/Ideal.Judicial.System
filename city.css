@@ -12,9 +12,10 @@
 }
 
 h3 {
-    font-size: 14pt;
+    font-size: 12pt;
     padding-top: 5px;
     padding-left: 1005px;
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 1em white;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
