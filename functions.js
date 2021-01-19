@@ -1,5 +1,5 @@
 
-window.alert("Hello World")
+window.alert("Hello and welcome to my ideal Judicial system page! ✴️\nClick on the different colour buttons and I will present my proposals in detail.")
 
 // Redirects you to the ideal system, explained in detail :D
 
@@ -13,3 +13,4 @@ var show = function(id) {
 var hide = function(id) {
 	$(id).style.display ='none';
 }
+
