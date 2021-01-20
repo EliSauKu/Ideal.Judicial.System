@@ -3,7 +3,7 @@
 window.onload=function(){
 Swal.fire({
     icon: "info",
-    title: '✴️ Hello and welcome to my ideal Judicial system page! ✴️\n\nClick on the different colour buttons and I will present my proposals in detail.',
+    title: '✴️ Hello and welcome to my ideal Judicial system page! ✴️\n\nClick on the different colour buttons and I will present my proposals and ideas in detail.',
     showClass: {
       popup: 'animate__animated animate__fadeInDown'
     },
